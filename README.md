@@ -1,4 +1,4 @@
 # hello-world
 Hello people!
 
-It´s just my firts web in python, i´m learning about this
+It´s just my projects, i´m learning about this
