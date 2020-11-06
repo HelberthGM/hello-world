@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+  <title>Habia Una Vez En La Web</title>
+  <meta charset="UTF-8">
+  <link href="myStyle.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <main>
+    <header class="header">
+
+      <h1> Habia Una Vez en la Web</h1>
+      <p>la web fue creada por muchas personas entre ellas
+        <a href="https://www.w3.org/People/Berners-Lee/" ><strong>Tim Berners-Lee</strong></a></p>
+      <p>El fue quien unio la Web con el internet y participo en el
+        desarrollo de los primeros 
+		<a href="https://www.piensasolutions.com/blog/principales-lenguajes-programacion-web/">
+		<em>lenguajes de desarrollo web.</em></a></p>
+
+
+      <h2>La Web</h2>
+      <p> La Web es un protocolo de transmision de datos que usa HTML
+        <a href="https://es.wikipedia.org/wiki/HTML"><em>Hiper Text Markup Language</em></a>
+        y muchos otras lenguajes.</p>
+      <article>
+        <ul>
+          <li>
+            <!--  type="circle"> usar CSS-->Esta es </li>
+          <li>
+            <!-- type="disc" usar CSS -->La primera</li>
+          <li>
+            <!--type="square" usar CSS  -->Lista que </li>
+          <li>hago con HTML</li>
+        </ul>
+      </article>
+      <ol>
+        <li>Esta es</li>
+        <li>La segunda <a href="listas.html">lista</a></li>
+        <li>pero la primera</li>
+        <li>que esta numerada</li>
+      </ol>
+      <aside>
+        <dl>
+          <dt>
+            <h3>Introducci&oacute;n:</h3>
+          </dt>
+          <dd>Agua,Tierra,Fuego,Aire...</dd>
+          <dt>
+            <h3> Historia y contexto:</h3>
+          </dt>
+          <dd>Mi abuela solia contarme una historia de tiempos antiguos, aquellos tiempos de paz..</dd>
+          <dt>
+            <h3> Introducci&oacute;n al personaje principal:</h3>
+          </dt>
+          <dd>En que el avatar mantenia el equlibrio entre las tribus agua,
+            el reino tierra, la nacion del fuego y los nomadas aire... </dd>
+          <dt>
+            <h3>Plot twist:</h3>
+          </dt>
+          <dd>Pero todo cambio cuando la nacion del fuego ataco...</dd>
+        </dl>
+      </aside>
+      <div id="encuesta" >
+        <h4>He aqui mi primer formulario en HTML:</h4>
+        <form enctype="text/plain">
+          <h4>&iquest;Que prefieres?</h4>
+
+          <input type="Text" value="Helado gratis por el resto de tu vida" size="26" disabled="disabled" />
+          <input type="radio" name="¿que prefieres?" value="css" />
+          <input type="text" value="Que se acabe la pandemia ya" size="21" disabled="disabled" />
+          <input type="radio" name="¿Que prefieres?" value="html" /> </br>
+          <label for="Superpoderes">
+            <h4>&iquest;Que prefieres?</h4>
+          </label>
+          <select multiple="multiple" id="Superpoderes">
+            <p>Elige el que mas te guste</p>
+            <optgroup label="Necesidades">
+              <option value="No necesitar comer">No necesitar comer</option>
+              <option value="No necesitar dormir">No necesitar dormir</option>
+              <option value="No necesitar hacer popo">No necesitar hacer popo</option>
+            </optgroup>
+            <optgroup label="Capacidades">
+              <option value="Ser inmune a todas la enfermedades">Ser inmune a todas la enfermedades</option>
+              <option value="Ser superdotado">Ser superdotado</option>
+              <option value="Nadar en lava">Nadar en lava</option>
+              <option value="Ser la persona mas fuerte del mundo">Ser la persona mas fuerte del mundo</option>
+            </optgroup>
+
+          </select>
+          <p>¿Color favorito?</p>
+          <input type="color" name="favcolor" />
+          <p>¿Que hora y dia es?</p>
+          <input type="datetime-local" name="fechahora_usuario" />
+          <p>URL de una pagina que te guste:
+            <input type="url" name="URL" /></p>
+          <button type="submit">Subimit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+      <article>
+        <h3>Tablas: primer ejemplo</h3>
+
+        <table>
+          <caption>Ingresos</caption>
+          <thead>
+            <tr>
+              <th colspan="2">2012</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th colspan="2">Enero</td>
+            </tr>
+            <tr>
+              <td>100€</td>
+              <td>50€</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <th>Febrero</td>
+              <td>75€</td>
+            </tr>
+          </tfoot>
+      </article>
+      </table>
+      <article>
+        <table>
+          <caption>Ingresos</caption>
+          <thead>
+            <tr>
+              <th colspan="3">2012</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2">Enero</td>
+              <td colspan="1">1</td>
+              <td>100€</td>
+            </tr>
+
+            <tr>
+              <td colspan="1">2</td>
+              <td>50€</td>
+            </tr>
+            <tr>
+              <th colspan="2">Febrero</td>
+              <td>75€</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <figure>
+        <img src="MilhouseSinGafas.jpg" alt="MilhouseSinGafas" usemap="#Mis-anteojos">
+        <map name="Mis-anteojos">
+          <area shape="rect" coords="0,0,150,150" href="https://www.youtube.com/watch?v=qSHGlTNSpIE"
+            alt="AAAAAYY MIS ANTEOJOOOS">
+          <area shape="circle" coords="240,100,100" href="https://www.youtube.com/watch?v=mmOnoujKDds"
+            alt="MIIS CEJAAAS">
+          <area shape="poly" coords="350,250,500,200,350,500" href="https://www.youtube.com/watch?v=hQyChZz0g28"
+            alt="ayy perrito">
+        </map></figure>
+      <figure>
+        <img src="https://lacapillasixtina.es/wp-content/uploads/2012/12/Creacion-Adan-01-OK-Pfeiffer.jpg"
+          alt="La Creacion de Adan-Cuadro" width="626" height="372" usemap="#info">
+        <map name="info">
+          <area shape="rect" coords="120,50,570,350" href="https://es.wikipedia.org/wiki/La_creaci%C3%B3n_de_Ad%C3%A1n"
+            alt="info">
+        </map></figure>
+
+  </main>
+
+</body>
+
+</html>

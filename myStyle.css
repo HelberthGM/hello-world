@@ -1,0 +1,92 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, span, applet, object, iframe,
+h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	Color: #ffffff; 
+	background-color: #1c0500;
+}
+h1, h2 , h3 , h4 {
+	font-family: Georgia; 
+}
+h1 {
+	font-size: 3.5em;
+}
+h2 {
+	font-size: 3em;
+}
+h3 {
+	font-size: 2em;
+}
+p {
+	font-family: Arial, Helvetica, sant-serif;
+}
+dd {
+	font-family: Verdana;
+}
+#encuesta {
+	background-color: #6e0000;
+	margin: 50px;
+	border: 1px solid #ffffff;
+	padding: 1em;
+	text-align: left;
+	width: 30em;
+}
+a:link {
+	text-decoration: none;
+	color: #ff3399;
+}
+a:visited{
+	font-family: Courier;
+	text-decoration : none;
+	color: #FFF;
+}
+table, td, th{
+	width: 20%;
+	padding: 0.7em;
+	margin: 5px;
+	border: 1px solid rgb(255, 255, 255);
+	border-collapse: collapse;
+}
+thead{
+	background-color: #ff07fc;
+}
+.cuadrado {
+	list-style-type: square;
+}
+.circulo {
+	list-style-type: circle;
+}
+.armenian {
+	list-style-type: armenian;
+	list-style-position: inside;
+}
+.greek {
+	list-style-type: lower-greek;
+}
+.georgian {
+	list-style-type: georgian;
+}
+.imagen {
+	list-style-image: url("#") ;
+}
