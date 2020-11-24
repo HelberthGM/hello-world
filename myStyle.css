@@ -25,6 +25,8 @@ time, mark, audio, video {
 body {
 	Color: #ffffff; 
 	background-color: #1c0500;
+	padding: 0;
+	margin: 0 auto;
 }
 h1, h2 , h3 , h4 {
 	font-family: Georgia; 
@@ -89,4 +91,11 @@ thead{
 }
 .imagen {
 	list-style-image: url("#") ;
+}
+#header {
+	text-align: center;
+	width: 45em;
+}
+article, #content {
+	width: 30em;
 }
