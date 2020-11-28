@@ -90,12 +90,15 @@ thead{
 	list-style-type: georgian;
 }
 .imagen {
-	list-style-image: url("#") ;
+	image-rendering: pixelated;
+	list-style-image: url("https://www.pinclipart.com/picdir/big/359-3599499_drunk-emoji-png-icon-woozy-face-emoji-clipart.png");
 }
 #header {
 	text-align: center;
-	width: 45em;
+	width: 100%;
+	background-color: #640025;
+	padding: 0.01%;
 }
 article, #content {
-	width: 30em;
+	width: 100%;
 }

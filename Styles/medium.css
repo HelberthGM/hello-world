@@ -1,0 +1,12 @@
+.mini {
+    display: inherit !important;
+} 
+
+body {
+    background-color: cadetblue;
+    color: black;
+}
+
+.medium {
+    display: none;
+}
